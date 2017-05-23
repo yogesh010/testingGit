@@ -1,0 +1,25 @@
+
+
+
+
+   SETUP GIT ACCOUNT
+
+first need to download git hit url https://git-scm.com/  you can see on the bottom right hand side there is window screen just need to hit download for windows 
+
+and then install in to the system
+and go to the github url and create a repository 
+open the git command console
+type the follwing commands:
+1 first cd c:
+cd git
+and then create any file
+2 git config --global user.name "your name"
+3 git config --global user.email yogeshhkumarr0102@gmail.com
+4 git clone paste "git repository to create in github portal"
+5 now you can create files in your folder 
+6 just add this file to git repostory by command
+    git add "file name"       //adding file to git repository
+7 git status for checking      //check how many files are added but not committed 
+8 git commit -m "message " filename // commit the file and after that you can not modify if you want to modify that file you need to re commit the file after adding
+9 git push -u origin master    // this command push your all committed files to your git repository
+10 git rm --cached filenae   // to remove files from git repository
